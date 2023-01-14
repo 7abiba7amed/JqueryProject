@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="JS/jquery-3.5.1.min.js"></script>
+    <script src="JS/Employees.js"></script>
+</head>
+
+<body>
+    <button id="GetData">LoadingData</button>
+    <button id="adding">ADD EMPLOYEE</button>
+    <div style="display: none;" id="addForm">
+        <span>ID</span> <input id="txtid" />
+        <span>Name</span> <input id="txtName" />
+        <span>Age</span> <input id="txtage" />
+        <span>Salary</span> <input id="txtsalary" />
+        <button id="SavingAdd">Add</button>
+        <div class="error"></div>
+    </div>
+    <div style="display: none;" id="editForm">
+        <span>Name</span> <input id="txtEName" />
+        <span>Age</span> <input id="txtEAge" />
+        <span>Salary</span> <input id="txtESalary" />
+        <button id="SavingEdit">Save</button>
+        <div class="error"></div>
+    </div>
+
+    <table id="_tbl">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr>
+    </table>
+    <div id="popUp">
+        <p>Are You Sure, You Want To Delete This Employee</p>
+        <button id="cancel">Cnacel</button>
+        <button id="confirm">Confirm</button>
+    </div>
+</body>
+
+</html>

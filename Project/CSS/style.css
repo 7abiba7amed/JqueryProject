@@ -1,0 +1,79 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border: 2px solid rgb(156, 96, 156);
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+}
+table th{
+    color: rgb(156, 96, 156);
+    font-size: 20px;
+}
+button {
+    background-color: rgb(156, 96, 156); 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+button:hover {
+    background-color: white;
+    color: rgb(156, 96, 156);
+    border-color: rgb(156, 96, 156);
+}
+#popUp , #editForm , #addForm{
+    display: none;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(156, 96, 156);
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    padding: 20px;
+}
+#popUp p , .error{
+    font-size: 20px;
+    color: red;
+}
+#popUp button , #editForm button{
+    padding: 10px 20px;
+}
+.edit ,.delete{
+    padding: 7px 10px;
+    transition-duration: 0.4s;
+}
+#editForm , #addForm{
+    width: 27%;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    padding: 20px;
+}
+#editForm input, #addForm input{
+    padding: 5px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    margin: 5px auto;
+    border: 1px solid violet;
+    border-radius: 20px;
+}
+#editForm span ,#addForm span{
+    color: rgb(156, 96, 156);
+    font-size: 20px;
+    font-weight: bold;
+}
